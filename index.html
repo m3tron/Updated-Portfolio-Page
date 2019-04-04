@@ -30,54 +30,63 @@
     <script src="assets/scripts/app.js"></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="index.html">Sunny Heyar</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <!--  <nav class="">
+     
+    </nav> -->
 
-      <div class="collapse navbar-collapse order-3" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#" id="about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" id="portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" id="contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <div class="container">
-      <div id="indexPage">
-        <h1>
-          INDEX PAGE
-        </h1>
-      </div>
-      <div id="aboutPage" style="display: none;">
-        <h1>ABOUT PAGE</h1>
-      </div>
-      <div id="portfolioPage" style="display: none;">
-        <h1>
-          PORTFOLIO PAGE
-        </h1>
-      </div>
-      <div id="contactPage" style="display: none;">
-        <h1>CONTACT PAGE</h1>
+    <div class="row">
+      <nav
+        id="sideNavBar"
+        class="navbar flex-column navbar-expand-lg navbar-dark bg-dark col-2"
+      >
+        <a class="navbar-brand" href="index.html">Sunny Heyar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="about">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container-fluid">
+        <div class="col-12">
+          <div id="indexPage">
+            <h1>
+              INDEX PAGE
+            </h1>
+          </div>
+          <div id="aboutPage">
+            <h1>ABOUT PAGE</h1>
+          </div>
+          <div id="portfolioPage">
+            <h1>
+              PORTFOLIO PAGE
+            </h1>
+          </div>
+          <div id="contactPage">
+            <h1>CONTACT PAGE</h1>
+          </div>
+        </div>
       </div>
     </div>
   </body>
-  <footer class="navbar fixed-bottom navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Fixed bottom</a>
-  </footer>
 </html>
