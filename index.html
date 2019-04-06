@@ -11,6 +11,10 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,800"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
     <script
       src="https://code.jquery.com/jquery-3.3.1.js"
@@ -30,63 +34,75 @@
     <script src="assets/scripts/app.js"></script>
   </head>
   <body>
-    <!--  <nav class="">
-     
-    </nav> -->
-
-    <div class="row">
-      <nav
-        id="sideNavBar"
-        class="navbar flex-column navbar-expand-lg navbar-dark bg-dark col-2"
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#">Sunny Heyar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
       >
-        <a class="navbar-brand" href="index.html">Sunny Heyar</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto flex-column">
-            <li class="nav-item">
-              <a class="nav-link" href="#" id="about">About</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#" id="portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" id="contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <div class="container-fluid">
-        <div class="col-12">
-          <div id="indexPage">
-            <h1>
-              INDEX PAGE
-            </h1>
-          </div>
-          <div id="aboutPage">
-            <h1>ABOUT PAGE</h1>
-          </div>
-          <div id="portfolioPage">
-            <h1>
-              PORTFOLIO PAGE
-            </h1>
-          </div>
-          <div id="contactPage">
-            <h1>CONTACT PAGE</h1>
-          </div>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav order-3 ml-auto">
+          <li class="nav-item active">
+            <a id="homeButton" class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a id="portfolioButton" class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item active">
+            <a id="contactButton" class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="wrapper" class="container">
+      <div id="home">
+        <h3>Hi I'm Sunny</h3>
+        <h4>Welcome to my portfolio</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
+          distinctio aperiam iure corrupti, ea ullam blanditiis ducimus at
+          reprehenderit delectus voluptate, non quis ipsam architecto accusamus
+          voluptatem doloribus ab a sapiente unde voluptates. At eaque
+          laboriosam autem saepe repellendus animi, unde eveniet assumenda ipsum
+          voluptates, perspiciatis cupiditate corporis voluptatum iure natus
+          ipsam delectus culpa. Suscipit vel, est recusandae ut deserunt
+          repudiandae et laudantium quo vero quis distinctio non voluptate
+          dolor, consequatur molestiae, reprehenderit necessitatibus ullam!
+          Expedita dignissimos quibusdam aliquam dolor blanditiis. Blanditiis
+          vitae consequatur et quasi dolor esse corporis fugiat. Ad rerum atque
+          alias, veniam deleniti, exercitationem asperiores in, repellendus
+          velit aperiam ipsam omnis maxime quo dignissimos a non nihil? Modi
+          dolorem officia vel eveniet mollitia corrupti sint nam, sequi odio
+          excepturi itaque, magni, ut deleniti. Neque culpa aut ad vel officiis
+          veniam ex facere fugiat earum facilis aperiam, molestias consectetur.
+          Reprehenderit, magni corrupti voluptatum ipsum unde iure optio nulla?
+        </p>
       </div>
     </div>
   </body>
+  <footer class="navbar fixed-bottom navbar-dark">
+    <ul class="nav ml-auto mr-auto">
+      <li class="nav-item">
+        <a href="https://github.com/m3tron" target="_blank" class="nav-link"
+          ><img src="/assets/images/GitHub-Mark-Light-32px.png" alt="Github"
+        /></a>
+      </li>
+      <li class="nav-item">
+        <a
+          href="https://www.linkedin.com/in/sunny-heyar-264158181/"
+          target="_blank"
+          class="nav-link"
+          ><img src="assets/images/Logo-White-28px-R.png" alt="LinkedIn"
+        /></a>
+      </li>
+    </ul>
+  </footer>
 </html>
