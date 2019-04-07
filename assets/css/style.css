@@ -9,16 +9,28 @@ nav {
   font-family: "Montserrat", sans-serif;
   border: 5px;
   background: black;
+  margin-bottom: 100px;
 }
 
 #home {
-  margin-top: 100px;
+  margin: 100px auto 100px auto;
   text-align: center;
   text-justify: inter-character;
   vertical-align: center;
   line-height: 2;
 }
 
-footer {
-  background-color: black;
+#portfolio {
+  margin: 100px auto 100px auto;
+  text-align: center;
+}
+
+#contact {
+  margin: 100px auto 100px auto;
+  text-align: center;
+}
+
+.card {
+  background: none;
+  border: none;
 }

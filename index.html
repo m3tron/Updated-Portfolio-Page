@@ -15,6 +15,12 @@
       href="https://fonts.googleapis.com/css?family=Montserrat:400,800"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
     <script
       src="https://code.jquery.com/jquery-3.3.1.js"
@@ -34,7 +40,7 @@
     <script src="assets/scripts/app.js"></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
       <a class="navbar-brand" href="#">Sunny Heyar</a>
       <button
         class="navbar-toggler"
@@ -51,21 +57,27 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav order-3 ml-auto">
           <li class="nav-item active">
-            <a id="homeButton" class="nav-link" href="#">Home</a>
+            <a id="homeButton" class="nav-link" href="#home">Home</a>
           </li>
           <li class="nav-item active">
-            <a id="portfolioButton" class="nav-link" href="#">Portfolio</a>
+            <a id="portfolioButton" class="nav-link" href="#portfolio"
+              >Portfolio</a
+            >
           </li>
           <li class="nav-item active">
-            <a id="contactButton" class="nav-link" href="#">Contact</a>
+            <a id="contactButton" class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
+
     <div id="wrapper" class="container">
-      <div id="home">
-        <h3>Hi I'm Sunny</h3>
-        <h4>Welcome to my portfolio</h4>
+      <section id="home">
+        <br />
+        <br />
+        <h2>Hi I'm Sunny</h2>
+        <h4>Welcome to my portfolio!</h4>
+        <br />
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
           distinctio aperiam iure corrupti, ea ullam blanditiis ducimus at
@@ -77,32 +89,153 @@
           repudiandae et laudantium quo vero quis distinctio non voluptate
           dolor, consequatur molestiae, reprehenderit necessitatibus ullam!
           Expedita dignissimos quibusdam aliquam dolor blanditiis. Blanditiis
-          vitae consequatur et quasi dolor esse corporis fugiat. Ad rerum atque
-          alias, veniam deleniti, exercitationem asperiores in, repellendus
-          velit aperiam ipsam omnis maxime quo dignissimos a non nihil? Modi
-          dolorem officia vel eveniet mollitia corrupti sint nam, sequi odio
-          excepturi itaque, magni, ut deleniti. Neque culpa aut ad vel officiis
-          veniam ex facere fugiat earum facilis aperiam, molestias consectetur.
-          Reprehenderit, magni corrupti voluptatum ipsum unde iure optio nulla?
+          vitae consequatur et quasi dolor esse corporis fugiat.
         </p>
-      </div>
+
+        <p>
+          Ad rerum atque alias, veniam deleniti, exercitationem asperiores in,
+          repellendus velit aperiam ipsam omnis maxime quo dignissimos a non
+          nihil? Modi dolorem officia vel eveniet mollitia corrupti sint nam,
+          sequi odio excepturi itaque, magni, ut deleniti. Neque culpa aut ad
+          vel officiis veniam ex facere fugiat earum facilis aperiam, molestias
+          consectetur. Reprehenderit, magni corrupti voluptatum ipsum unde iure
+          optio nulla?
+        </p>
+      </section>
+      <hr />
+      <section id="portfolio">
+        <h3>Previous Projects</h3>
+        <br />
+        <br />
+        <div class="row justify-content-around">
+          <div class="card" style="width: 18rem;">
+            <img src="assets/images/giphy.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              Superhero Gif Generator
+              <br />
+              <br />
+              <a href="https://github.com/m3tron/giftastic" target="_blank"
+                ><img src="assets/images/GitHub-Mark-32px.png" alt=""
+              /></a>
+              <br />
+              Repo
+              <br />
+              <br />
+              <a href="https://m3tron.github.io/giftastic/" target="_blank"
+                ><img
+                  src="https://img.icons8.com/ios/32/000000/internet-filled.png"
+              /></a>
+              <br />
+              App Link
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img
+              src="assets/images/cryscoll.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              Crystal Collector
+              <br /><br />
+              <a
+                href="https://github.com/m3tron/Crystal-Collector"
+                target="_blank"
+                ><img src="assets/images/GitHub-Mark-32px.png" alt=""
+              /></a>
+              <br />
+              Repo
+              <br />
+              <br />
+              <a
+                href="https://m3tron.github.io/Crystal-Collector/"
+                target="_blank"
+                ><img
+                  src="https://img.icons8.com/ios/32/000000/internet-filled.png"
+              /></a>
+              <br />
+              App Link
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="assets/images/ttime.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              Train Scheduler
+              <br /><br />
+              <a
+                href="https://github.com/m3tron/Train-Scheduler"
+                target="_blank"
+                ><img src="assets/images/GitHub-Mark-32px.png" alt=""
+              /></a>
+              <br />
+              Repo
+              <br />
+              <br />
+              <a
+                href="https://m3tron.github.io/Train-Scheduler/"
+                target="_blank"
+                ><img
+                  src="https://img.icons8.com/ios/32/000000/internet-filled.png"
+              /></a>
+              <br />
+              App Link
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section id="contact">
+        <h3>Contact Me</h3>
+        <br />
+        <br />
+        <div class="row justify-content-around">
+          <div class="card">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d369003.71052882785!2d-79.6639103555716!3d43.734619655141564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1554592921705!5m2!1sen!2sca"
+              width="400"
+              height="300"
+              frameborder="0"
+              style="border:0"
+              allowfullscreen
+            ></iframe>
+          </div>
+
+          <div class="card">
+            <h4>I'm located in the GTA</h4>
+            <br />
+            <a href="https://github.com/m3tron" target="_blank"
+              ><img src="/assets/images/GitHub-Mark-64px.png" alt="Github"
+            /></a>
+            My Github Profile
+            <br />
+            <br />
+            <a
+              href="https://www.linkedin.com/in/sunny-heyar-264158181/"
+              target="_blank"
+              ><img src="assets/images/Logo-Black-48px-R.png" alt="LinkedIn"
+            /></a>
+            My LinkedIn Profile
+            <br />
+            <br />
+            <a href="mailto:sunny.heyar@gmail.com"
+              ><img src="https://img.icons8.com/metro/52/000000/email.png"
+            /></a>
+            E-mail Me
+            <br />
+            <br />
+            <a href="tel:+14169671111"
+              ><img src="https://img.icons8.com/metro/52/000000/phone.png"
+            /></a>
+            Call Me
+            <br />
+            <br />
+            <a href="https://en.wikipedia.org/wiki/Elephant" target="_blank"
+              ><img src="https://img.icons8.com/ios/50/000000/resume-filled.png"
+            /></a>
+            My Résumé
+          </div>
+        </div>
+      </section>
     </div>
   </body>
-  <footer class="navbar fixed-bottom navbar-dark">
-    <ul class="nav ml-auto mr-auto">
-      <li class="nav-item">
-        <a href="https://github.com/m3tron" target="_blank" class="nav-link"
-          ><img src="/assets/images/GitHub-Mark-Light-32px.png" alt="Github"
-        /></a>
-      </li>
-      <li class="nav-item">
-        <a
-          href="https://www.linkedin.com/in/sunny-heyar-264158181/"
-          target="_blank"
-          class="nav-link"
-          ><img src="assets/images/Logo-White-28px-R.png" alt="LinkedIn"
-        /></a>
-      </li>
-    </ul>
-  </footer>
 </html>
